@@ -1,0 +1,185 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav .special-text
+{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Croissant One', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    display:inline-block;
+    margin:10px;
+}
+nav
+{
+    background-color:blue;
+    color:white;
+    height:58px;
+    font-size:19px;
+}
+.search-box
+{
+    display: flex;
+    width: 507px;
+    height: 34px;
+    margin-left: 219px;
+    position: relative;
+    top: -45px;
+}
+.search-box input 
+{
+    border: none;
+    width: 504px;
+    height: 28px;
+    padding-left: 13px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-right: 17px;
+}
+.btn
+{
+    padding: 6px 9px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 11px;
+}
+.btn:hover
+{
+    font-weight: bolder;
+}
+nav ul
+{
+    display:flex;
+    list-style: none;
+    position:relative;
+    justify-content:right;
+    top:-66px;
+}
+
+main ul
+{
+    display:flex;
+    list-style:none;
+    margin:22px;
+    justify-content: space-evenly;
+    padding-left: 60px;;
+}
+main ul li
+{
+    margin:25px;
+}
+main ul li a
+{
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+}
+
+nav ul li
+{
+    margin:34px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover
+{
+    font-weight:bolder;
+}
+footer
+{
+    background-color:blue;
+    color:white;
+    height:10vh;
+    padding-top:23px;
+    font-family: sans-serif;
+    font-size:14px;
+}
+main
+{
+    min-height:calc(100vh-58px-10vh);
+}
+.Upper-section img
+{
+    width: 80px;
+    height: 80px;
+    border:2px solid red;
+    border-radius: 22px;
+}
+.slider
+{
+    display:flex;
+    justify-content: center;
+}
+.transaction-section
+{
+    height: 22vh;
+    width: 57vw;
+    margin: 22px 241px 22px 253px;
+    padding-left: 49px;
+    border: 4px solid rgb(205, 195, 195);
+}
+.transaction-section a
+{
+    font-size:39px;
+    font-weight: bolder;
+    color:black;
+    text-decoration: none;
+    position:relative;
+    top:5px;
+}
+.transaction-section img
+{
+    width: 11vw;
+    height: 11vh;
+    margin: 21px;
+}
+.text
+{
+    position: relative;
+    top: -8vh;
+    display:inline-block;
+    font-size: medium;
+}
+.Buyers-section
+{
+    padding-left:53px;
+}
+.Buyers-section h1
+{
+    font-size:small;
+}
+.Mobiles
+{
+    justify-content: space-evenly;
+}
+.Mobiles img
+{
+    width:33vh;
+    height:33vw;
+    border:none;
+}
+h2 {
+    padding-left: 14px;
+}
+.buycricket img {
+    margin: 15px;
+}
+.image-section 
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
